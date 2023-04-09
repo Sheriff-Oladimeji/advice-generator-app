@@ -1,0 +1,78 @@
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--DarkBlue);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.advice-container {
+  background-color: var(--DarkGrayishBlue);
+  width: 40%;
+  padding: 30px auto;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+}
+h4 {
+  color: var(--NeonGreen);
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+
+.advice {
+  font-size: 28px;
+  color: var(--LightCyan);
+  width: 70%;
+  margin: 20px auto;
+}
+.divider{
+    margin: 30px auto 60px;
+    width: 90%;
+    
+}
+.dice {
+  background-color: var(--NeonGreen);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  position: absolute;
+  bottom: -15%;
+ margin: 0px auto;
+left: 44%;
+}
+.desktop{
+    width: 90%;
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 600px) {
+  .advice-container {
+    width: 90%;
+  }
+  .mobile{
+    display: block;
+    width: 90%;
+  }
+  .desktop{
+    display: none;
+  }
+  .dice{
+    bottom: -10%;
+    left: 43%;
+  }
+}
