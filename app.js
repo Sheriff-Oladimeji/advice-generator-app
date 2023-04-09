@@ -11,4 +11,7 @@ async function adviceGenerator(){
     adviceId.textContent = id
     adviceText.textContent = `"${text}"`
 }
+adviceBtn.addEventListener('click', function(e){
+e.preventDefault()
 adviceGenerator()
+})
