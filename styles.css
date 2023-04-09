@@ -53,6 +53,13 @@ h4 {
   bottom: -15%;
  margin: 0px auto;
 left: 44%;
+cursor: pointer;
+}
+.dice:active, .dice:hover{
+  box-shadow: 0 0 10px var(--NeonGreen);
+}
+.dice img{
+  pointer-events: none;
 }
 .desktop{
     width: 90%;
@@ -75,4 +82,8 @@ left: 44%;
     bottom: -10%;
     left: 43%;
   }
+  .advice{
+    width: 90%;
+  }
+  
 }
