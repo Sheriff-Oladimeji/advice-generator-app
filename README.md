@@ -32,3 +32,16 @@ Users should be able to:
 
 - Solution URL: [View solution](https://github.com/Sheriff-Oladimeji/advice-generator-app)
 - Live Site URL: [visit site ](https://advice-generator-app-alpha-one.vercel.app/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Desktop-first workflow
+
+## Author
+
+- Github - [Sheriff-Oladimeji](https://github.com/Sheriff-Oladimeji)
+- Frontend Mentor - [@OladimejiSheriff](https://www.frontendmentor.io/profile/OladimejiSheriff)
+- Twitter - [@SheriffWebDev](https://www.twitter.com/sheriffWebDev)
