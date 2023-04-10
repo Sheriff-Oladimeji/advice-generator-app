@@ -27,3 +27,8 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot.png)
+
+### Links
+
+- Solution URL: [View solution](https://github.com/Sheriff-Oladimeji/advice-generator-app)
+- Live Site URL: [visit site ](https://advice-generator-app-alpha-one.vercel.app/)
