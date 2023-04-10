@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .advice-container {
   background-color: var(--DarkGrayishBlue);
@@ -24,7 +26,7 @@ body {
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  position: relative;
+ position: relative;
 }
 h4 {
   color: var(--NeonGreen);
@@ -43,17 +45,17 @@ h4 {
     width: 90%;
     
 }
-.dice {
+.dice  {
   background-color: var(--NeonGreen);
   border-radius: 50%;
   border: none;
   outline: none;
   padding: 20px;
   position: absolute;
-  bottom: -15%;
  margin: 0px auto;
-left: 44%;
+bottom: -13%;
 cursor: pointer;
+left: 43%;
 }
 .dice:active, .dice:hover{
   box-shadow: 0 0 10px var(--NeonGreen);
@@ -80,7 +82,7 @@ cursor: pointer;
   }
   .dice{
     bottom: -10%;
-    left: 43%;
+    left: 40%;
   }
   .advice{
     width: 90%;
